@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YunMa.Excel.Core", "Src\YunMa.Excel.Core\YunMa.Excel.Core.csproj", "{DEEAA324-BE4B-40A1-8186-745FA62A4764}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CF24C9FC-95A2-4143-B480-2CA766D19B6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YunMa.Excel", "Src\YunMa.Excel\YunMa.Excel.csproj", "{617E5686-D040-4B9B-B6DB-8D8792DC7A80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{653CD821-860B-46F6-9D89-948ECC6C6CAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YunMa.Excel.Tests", "Tests\YunMa.Excel.Tests.csproj", "{E33AFEAD-A1BA-4791-9376-54CB779A189A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEEAA324-BE4B-40A1-8186-745FA62A4764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEAA324-BE4B-40A1-8186-745FA62A4764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEAA324-BE4B-40A1-8186-745FA62A4764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEAA324-BE4B-40A1-8186-745FA62A4764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{617E5686-D040-4B9B-B6DB-8D8792DC7A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617E5686-D040-4B9B-B6DB-8D8792DC7A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617E5686-D040-4B9B-B6DB-8D8792DC7A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617E5686-D040-4B9B-B6DB-8D8792DC7A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33AFEAD-A1BA-4791-9376-54CB779A189A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33AFEAD-A1BA-4791-9376-54CB779A189A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33AFEAD-A1BA-4791-9376-54CB779A189A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33AFEAD-A1BA-4791-9376-54CB779A189A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEEAA324-BE4B-40A1-8186-745FA62A4764} = {653CD821-860B-46F6-9D89-948ECC6C6CAD}
+		{617E5686-D040-4B9B-B6DB-8D8792DC7A80} = {653CD821-860B-46F6-9D89-948ECC6C6CAD}
+		{E33AFEAD-A1BA-4791-9376-54CB779A189A} = {CF24C9FC-95A2-4143-B480-2CA766D19B6F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0074162-3D36-4276-B6B1-1DF87E7A5CD5}
+	EndGlobalSection
+EndGlobal
